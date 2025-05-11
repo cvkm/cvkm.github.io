@@ -8,9 +8,9 @@ mathjax: false
 author: C V Krishna Murthy
 ---
 
-{: .box-success}
+<div style="text-align: center;">
 This, the inaugural post of my humble blog, is intended to be more than a mere introduction. It is, if I may, a declaration of purpose, an opening salvo in what I hope will be a thoughtful and sustained discourse. The objective of this blog is simple yet profound: to **share perspectives, experiences, and insights** gleaned from my professional trajectory and personal journey.
-
+</div>
 ---
 
 ## The Genesis of an Idea
