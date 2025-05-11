@@ -17,8 +17,6 @@ subtitle: Explore insights, perspectives, and meticulously crafted thought piece
 
 <hr>
 
-{{ content }}
-
 {% assign posts = paginator.posts | default: site.posts %}
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
