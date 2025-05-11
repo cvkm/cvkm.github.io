@@ -1,6 +1,6 @@
 ---
 layout: page
-title: C.V.K Murthy
+title: C.V.K. Murthy
 subtitle: Reasoned Ambition, Disciplined Execution
 ---
  
