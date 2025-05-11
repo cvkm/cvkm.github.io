@@ -1,122 +1,25 @@
 ---
 layout: page
+title: C.V.K Murthy
+subtitle: Charting stories from silicon to sundials
 ---
+ 
+### Hello
 
-{{ content }}
+It is, perhaps, both customary and mildly disconcerting to begin with one’s own name, but in the interests of clarity (a virtue occasionally prized in both the public and private sectors), allow me to introduce myself: I am C V Krishna Murthy.
+My professional trajectory, if one may so describe a sequence of decisions governed by equal parts ambition, intellectual curiosity, and administrative serendipity, has spanned the technocratic, the financial, and the strategic. From the intricate syntax of software code to the delicately poised spreadsheets of investment banking, and onwards to the executive abstractions of product strategy, I have sought to bring a systems-oriented approach to the art and science of structured problem-solving.
+More succinctly put (though I hesitate to be overly economical with words), I operate best where disciplines converge, and where ambiguity is not a hurdle but an invitation to think more clearly.
 
-{% assign posts = paginator.posts | default: site.posts %}
+### On Professional Engagements
 
-<!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-<ul class="posts-list list-unstyled" role="list">
-  {% for post in posts %}
-  <li class="post-preview">
-    <article>
+In the course of my engagements, I have contributed to the construction of investment theses for mid-market mergers and acquisitions, collaborated with global teams on product roadmaps at Amazon, and in the earlier chapters of my career, architected software systems designed to scale with both elegance and efficiency.
+Presently, my interests lie in the fruitful tri-junction of strategy, artificial intelligence, and operational execution—domains which, when orchestrated judiciously, enable organisations to harmonise short-term outcomes with long-term strategic value. My modus operandi involves analytical precision, conceptual clarity, and the occasionally radical notion that first principles do, in fact, still matter.
 
-      {%- capture thumbnail -%}
-        {% if post.thumbnail-img %}
-          {{ post.thumbnail-img }}
-        {% elsif post.cover-img %}
-          {% if post.cover-img.first %}
-            {{ post.cover-img[0].first.first }}
-          {% else %}
-            {{ post.cover-img }}
-          {% endif %}
-        {% else %}
-        {% endif %}
-      {% endcapture %}
-      {% assign thumbnail=thumbnail | strip %}
+### On Educational Credentials
 
-      {% if site.feed_show_excerpt == false %}
-      {% if thumbnail != "" %}
-      <div class="post-image post-image-normal">
-        <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
-        </a>
-      </div>
-      {% endif %}
-      {% endif %}
+In terms of formal education, I hold an MBA from XLRI Jamshedpur and a B.E. in Electrical and Electronics Engineering from BITS Pilani—institutions which, I am reliably informed, are held in some regard. I am also a Mensa Fellow (though I do try not to bring it up at dinner parties) and an AWS Certified AI Practitioner, credentials which have proved occasionally useful when navigating both technical discussions and algorithmic mysticism.
 
-      <a href="{{ post.url | absolute_url }}">
-        <h2 class="post-title">{{ post.title | strip_html }}</h2>
+### Matters Beyond the Brief
 
-        {% if post.subtitle %}
-          <h3 class="post-subtitle">
-          {{ post.subtitle | strip_html }}
-          </h3>
-        {% endif %}
-      </a>
-
-      {% if post.author %}
-        <span>By <strong>{{ post.author | strip_html }}</strong></span>
-      {% endif %}
-      <p class="post-meta">
-        {% assign date_format = site.date_format | default: "%B %-d, %Y" %}
-        Posted on {{ post.date | date: date_format }}
-      </p>
-
-      {% if thumbnail != "" %}
-      <div class="post-image post-image-small">
-        <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
-        </a>
-      </div>
-      {% endif %}
-
-      {% unless site.feed_show_excerpt == false %}
-      {% if thumbnail != "" %}
-      <div class="post-image post-image-short">
-        <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
-          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
-        </a>
-      </div>
-      {% endif %}
-
-      <div class="post-entry">
-        {% assign excerpt_length = site.excerpt_length | default: 50 %}
-        {{ post.excerpt | strip_html | truncatewords: excerpt_length }}
-        {% assign excerpt_word_count = post.excerpt | number_of_words %}
-        {% if post.content != post.excerpt or excerpt_word_count > excerpt_length %}
-          <a href="{{ post.url | absolute_url }}" class="post-read-more">[Read&nbsp;More]</a>
-        {% endif %}
-      </div>
-      {% endunless %}
-
-      {% if site.feed_show_tags != false and post.tags.size > 0 %}
-      <div class="blog-tags">
-        <span>Tags:</span>
-        <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
-        <ul class="d-inline list-inline" role="list">
-          {% for tag in post.tags %}
-          <li class="list-inline-item">
-            <a href="{{ '/tags' | absolute_url }}#{{- tag -}}">{{- tag -}}</a>
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-      {% endif %}
-
-    </article>
-  </li>
-  {% endfor %}
-</ul>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pagination main-pager">
-  {% if paginator.previous_page %}
-  <li class="page-item previous">
-    <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}">
-      <i class="fas fa-arrow-left" alt="Newer Posts"></i>
-      <span class="d-none d-sm-inline-block">Newer Posts</span>
-    </a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="page-item next">
-    <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}">
-      <span class="d-none d-sm-inline-block">Older Posts</span>
-      <i class="fas fa-arrow-right" alt="Older Posts"></i>
-    </a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
+Beyond professional commitments, I find both refuge and inspiration in history—particularly in the long view of institutions, systems, and civilisations. I write when I can, as a means of organising thoughts otherwise prone to strategic drift, and I take a somewhat impractical interest in horology, or the study of fine timepieces.
+I remain drawn, above all, to the ideal of public impact achieved through structured reasoning and disciplined execution—an aspiration not without its challenges, but, I would argue, all the more worthwhile for them.
