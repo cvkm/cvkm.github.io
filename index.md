@@ -14,9 +14,9 @@ More succinctly put (though I hesitate to be overly economical with words), I op
 
 ### On Professional Engagements
 
-In the course of my engagements, I have contributed to the construction of investment theses for mid-market mergers and acquisitions, collaborated with global teams on product roadmaps at Amazon, and in the earlier chapters of my career, architected software systems designed to scale with both elegance and efficiency.
+In the course of my engagements, I have contributed to the construction of investment theses for mid-market mergers and acquisitions, collaborated with global teams on product roadmaps at FAANG, and in the earlier chapters of my career, architected software systems designed to scale with both elegance and efficiency.
 
-Presently, my interests lie in the fruitful tri-junction of strategy, artificial intelligence, and operational execution, domains which, when orchestrated judiciously, enable organizations to harmonize short-term outcomes with long-term strategic value. My modus operandi involves analytical precision, conceptual clarity, and the occasionally radical notion that first principles do, in fact, still matter.
+Presently, my interests lie in the fruitful tri-junction of strategy, artificial intelligence, and operational execution, domains which, when orchestrated judiciously, enable organizations to harmonize short-term outcomes with long-term strategic value.
 
 ### On Educational Credentials
 
