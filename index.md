@@ -24,6 +24,6 @@ In terms of formal education, I hold an MBA from XLRI Jamshedpur and a B.E. in E
 
 ### Matters Beyond the Brief
 
-Beyond professional commitments, I find both refuge and inspiration in history, particularly in the long view of institutions, systems, and civilizations. I write when I can, as a means of organising thoughts otherwise prone to strategic drift, and I take a somewhat impractical interest in horology, or the study of fine timepieces.
+Beyond professional commitments, I find both refuge and inspiration in history, particularly in the long view of institutions, systems, and civilizations. I write when I can, as a means of organizing thoughts otherwise prone to strategic drift, and I take a somewhat impractical interest in horology, or the study of fine timepieces.
 
 I remain drawn, above all, to the ideal of public impact achieved through structured reasoning and disciplined execution, an aspiration not without its challenges, but, I would argue, all the more worthwhile for them.
