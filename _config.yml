@@ -20,7 +20,7 @@ author: C V Krishna Murthy
 ###############################################
 
 navbar-links:
-  Home: "home"
+  Home: "/"
   Blog: "blog"
   Projects: "projects"
   
