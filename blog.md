@@ -60,7 +60,7 @@ subtitle: Explore insights, perspectives, and meticulously crafted thought piece
 
       <p class="post-meta small text-muted mt-1 mb-2">
         {{ post.date | date: "%B %-d, %Y" }} &nbsp;&bull;&nbsp;
-        {{ post.author | default: "C V Krishna Murthy" }} &nbsp;&bull;&nbsp;
+        {{ post.author | default: "C V Krishna Murthy" }}
       </p>
 
       {% if thumbnail != "" %}
